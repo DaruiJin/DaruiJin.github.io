@@ -1,7 +1,7 @@
 "use client";
 
 import { Container, Typography, Box, IconButton, Tooltip } from "@mui/material";
-import { FaGithub, FaLinkedin, FaGraduationCap, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGraduationCap, FaEnvelope } from 'react-icons/fa';
 import { FaOrcid } from 'react-icons/fa6';
 
 const socialLinks = [
@@ -10,12 +10,7 @@ const socialLinks = [
     href: 'mailto:darui.jin@dkfz-heidelberg.de',
     icon: FaEnvelope,
   },
-  {
-    name: 'GitHub',
-    href: 'https://github.com/yourgithub',
-    icon: FaGithub,
-  },
-  {
+{
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/in/darui-jin-838429282/',
     icon: FaLinkedin,

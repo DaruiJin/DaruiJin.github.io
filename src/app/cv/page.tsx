@@ -1,7 +1,7 @@
 "use client";
 
-import { Container, Typography, Box, Button, Chip } from "@mui/material";
-import { FaFileDownload, FaTrophy, FaGraduationCap, FaBriefcase } from 'react-icons/fa';
+import { Container, Typography, Box, Chip } from "@mui/material";
+import { FaTrophy, FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 
@@ -97,20 +97,6 @@ export default function CVPage() {
             Academic and professional background
           </Typography>
         </Box>
-        <Button
-          variant="outlined"
-          color="primary"
-          startIcon={<FaFileDownload />}
-          href="/cv/Darui_Jin_CV.pdf"
-          download
-          sx={{
-            borderRadius: 2,
-            textTransform: 'none',
-            fontWeight: 500,
-          }}
-        >
-          Download PDF
-        </Button>
       </Box>
 
       {/* Education Section */}

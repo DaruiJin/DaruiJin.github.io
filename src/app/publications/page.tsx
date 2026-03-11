@@ -16,7 +16,7 @@ interface Publication {
 
 const publications: Publication[] = [
   {
-    title: "Histology-based AI prediction of central nervous system tumour methylation subtypes",
+    title: "Hetairos is a histology-based artificial intelligence model for predicting central nervous system tumour methylation subtypes",
     authors: "Jin D, Shmatko A, Patel A, et al.",
     journal: "Nature Cancer",
     year: 2026,
