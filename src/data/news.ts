@@ -12,6 +12,12 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    date: "2026.06",
+    title: "Paper online in Nature Cancer",
+    description: "Hetairos is officially online!",
+    type: "publication",
+  },
+  {
     date: "2026.01",
     title: "Paper accepted at Nature Cancer",
     description: "Our paper on Histology-based AI prediction of CNS tumour methylation subtypes from histology has been accepted in principle at Nature Cancer.",

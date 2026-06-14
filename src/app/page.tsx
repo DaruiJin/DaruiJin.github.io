@@ -9,10 +9,10 @@ import { newsItems } from '@/data/news';
 // Selected publications
 const selectedPublications = [
   {
-    title: "Histology-based AI prediction of central nervous system tumour methylation subtypes",
+    title: "Hetairos is a histology-based artificial intelligence model for predicting central nervous system tumor methylation subtypes",
     authors: "Jin D, Shmatko A, Patel A, et al.",
-    venue: "Nature Cancer, 2026 (Accepted in principle)",
-    link: "", // 添加 DOI 链接，例如: "https://doi.org/10.1038/..."
+    venue: "Nature Cancer, 2026",
+    link: "https://doi.org/10.1038/s43018-026-01186-3", // 添加 DOI 链接，例如: "https://doi.org/10.1038/..."
   },
   {
     title: "Teacher-student collaborated multiple instance learning for pan-cancer PDL1 expression prediction",
